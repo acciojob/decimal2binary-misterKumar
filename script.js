@@ -1,4 +1,4 @@
-function decimalToBinary(num) {
+/*function decimalToBinary(num) {
   //Write you code here
   if (num < 0) {
         return "Please enter a non-negative decimal number.";
@@ -15,6 +15,14 @@ function decimalToBinary(num) {
     }
 
     return binaryNum;
+}
+
+window.decimalToBinary = decimalToBinary;*/
+function decimalToBinary(num) {
+  //Write you code here
+	const decimalNumber = num.toString(2);
+	return decimalNumber;
+  
 }
 
 window.decimalToBinary = decimalToBinary;
